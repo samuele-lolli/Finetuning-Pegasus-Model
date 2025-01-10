@@ -18,5 +18,13 @@ To evaluate the model's improvements before and after fine-tuning, **ROUGE** met
 - **ROUGE-2**: Measures accuracy based on pairs of words.
 - **ROUGE-L**: Measures accuracy based on the longest common subsequences.
 
+## Results
+
+| Metric       | Pegasus-base | Pegasus-finetuned |
+|--------------|--------------|-------------------|
+| **ROUGE-1**  | 0.15         | 0.39              |
+| **ROUGE-2**  | 0.01         | 0.17              |
+| **ROUGE-L**  | 0.12         | 0.33              |
+
 
 In the notebook, you will find all the information you need, various examples of article summaries, comparisons with the base model, and human summaries.
